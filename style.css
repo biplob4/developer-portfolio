@@ -22,7 +22,7 @@ h2{
     
 }
 section{
-    padding-bottom: 200px;
+    padding-bottom: 140px;
 }
 a.anchor-teg {
     border-radius: 10px;
@@ -45,7 +45,7 @@ p {
 }
 img.phpoto {
     border-radius: 100%;
-    background: #8f53d4;
+  background: burlywood;
     width: 85%;
 }
 .dream{
@@ -53,10 +53,30 @@ img.phpoto {
     background-repeat: no-repeat;
     background-position: right;
 }
-.fota {
-    border: 5px solid red;
-    padding: 58px;
-    background: red;
-    border-radius: 50%;
-    float: left;
+#full-stek {
+    box-shadow: 5px 10px 40px black;
+    height: 380px;
+    border-image: linear-gradient( #7f09eb,#b4ff00);
+    border-left: 9px solid;
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+
+section.experience h3 {color: orange;}
+#baby-web{
+    box-shadow: 5px 10px 40px black;
+    height: 380px;
+    border-image: linear-gradient( #23d30e,blue);
+    border-left: 9px solid;
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer p{
+
+    text-align: center;
 }
